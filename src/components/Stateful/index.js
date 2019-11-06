@@ -8,6 +8,11 @@ class Stateful extends React.Component {
         buttonMsg : 'Cool stateful button'
     }
 
+    handleClick(e){
+        this.update.bind(this);
+    }
+
+
     update(e){
         this.setState({
             message : 'Cool CHANGED stateful component',
@@ -19,7 +24,7 @@ class Stateful extends React.Component {
         return (
             <div>
                 <p>Very <b>{this.state.message}</b></p>
-                <ChildishButton>{this.state.buttonMsg}</ChildishButton>
+                <ChildishButton onClick={this.handleClick()}>{this.state.buttonMsg}</ChildishButton>
             </div>
 
         )
