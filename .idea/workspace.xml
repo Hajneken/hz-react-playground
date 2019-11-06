@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49cad4f5-5680-43f3-a2b4-4d1431084ea5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/SyntheticEvt/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UnderstandRefs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SWApiComponent/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UnderstandHOC/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Stateful/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Stateful/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UnderstandLifecycle/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UnderstandLifecycle/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +42,11 @@
       <recent name="C:\Users\Hynek\Desktop\Vzdělávání\REACT\play\playground\src\components\App" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="touch src/components/SWApiComponent/index.js" />
+    </option>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -61,7 +66,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572967229096</updated>
-      <workItem from="1572967231160" duration="14448000" />
+      <workItem from="1572967231160" duration="14779000" />
+      <workItem from="1573046197945" duration="8523000" />
     </task>
     <servers />
   </component>
@@ -73,7 +79,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
