@@ -13,7 +13,7 @@ const HOC = (InnerComponent) => class extends React.Component {
 }
 
 // Stateless component that we wrap in HOC
-const Button = HOC((props) => <button>{props.children}</button>)
+const Button = HOC((props) => <button>{props.children}</button>);
 
 //Stateless component can be also written in a class fashion
 const Label = (props) => <label>{props.children}</label>;

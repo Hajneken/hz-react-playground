@@ -7,22 +7,30 @@ import UnderstandRefs from "./components/UnderstandRefs";
 import UnderstandLifecycle from "./components/UnderstandLifecycle";
 import SWApiComponent from "./components/SWApiComponent";
 import UnderstandHOC from "./components/UnderstandHOC";
+import Slider from "./Slider";
+import ChangingHeader from "./components/ChangingHeader";
+import HookyComponent from "./components/UnderstandHooks"
+import HookyButton from "./components/HookyButton";
 
 class App extends React.Component{
     render(){
         return(
             <div>
-                <ChildishButton></ChildishButton>
-                <ChildishButton>Hynek</ChildishButton>
-                <Stateful />
-                <Stateless name="Stateless component"/>
-                <SyntheticEvt />
-                <UnderstandRefs />
-                <UnderstandLifecycle />
-                <SWApiComponent />
-                <UnderstandHOC />
+               <HookyComponent />
+               <HookyButton />
+
             </div>);
     }
 }
 
+{/*<ChildishButton></ChildishButton>*/}
+{/*<ChildishButton>Hynek</ChildishButton>*/}
+{/*<Stateful />*/}
+{/*<Stateless name="Stateless component"/>*/}
+{/*    <SyntheticEvt />*/}
+{/*    <UnderstandRefs />*/}
+{/*    <UnderstandLifecycle />*/}
+{/*    <SWApiComponent />*/}
+{/*    <UnderstandHOC />*/}
+{/*    <Slider />*/}
 export default App;
