@@ -7,10 +7,10 @@ import UnderstandRefs from "./components/UnderstandRefs";
 import UnderstandLifecycle from "./components/UnderstandLifecycle";
 import SWApiComponent from "./components/SWApiComponent";
 import UnderstandHOC from "./components/UnderstandHOC";
-import Slider from "./Slider";
 import ChangingHeader from "./components/ChangingHeader";
 import HookyComponent from "./components/UnderstandHooks"
 import HookyButton from "./components/HookyButton";
+import UnderstandAnimation from "./components/understandAnimation";
 
 class App extends React.Component{
     render(){
@@ -18,7 +18,7 @@ class App extends React.Component{
             <div>
                <HookyComponent />
                <HookyButton />
-
+               <UnderstandAnimation />
             </div>);
     }
 }
